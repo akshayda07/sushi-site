@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+header img {
+    height: 60px;
+    margin-left: 50px;
+}
+body {
+    background-color: rgb(252, 55, 55);
+    font-family: gilroy;
+    /* padding: 10px; */
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    margin: 20px;
+    list-style-type: none;
+}
+
+a{
+    margin-left: 15px;
+}
+
+header li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.list-item{
+    display: flex;
+    margin-left: 70%;
+    margin-top: 10px;
+}
+
+button{
+    position: absolute;
+    right: 10%;
+    top: 4%;
+    width: 120px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(233, 37, 37);
+}
+
+.main{
+    display: flex;
+}
+
+.left-content{
+    margin-left: 30px;
+    position: relative;
+    width: 55%;
+    font-family: gilroy;
+    /* background-color: aqua; */
+}
+
+h1{
+    position: absolute;
+    top: 80px;
+    color: white;
+    font-size: 75px;
+}
+
+p{
+    position: absolute;
+    top: 190px;
+    font-weight: 400;
+    color: white;
+}
+
+.right-img{
+    
+    width: 45%;
+    /* background-color: rgb(173, 94, 247); */
+}
+
+.sushi-img{
+    margin-top: 10%;
+    height: 30%;
+}
